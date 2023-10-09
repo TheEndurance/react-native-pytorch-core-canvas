@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.pilltallycanvasexample"
+    namespace "com.pytorchcorecanvasexample"
     defaultConfig {
-        applicationId "com.pilltallycanvasexample"
+        applicationId "com.pytorchcorecanvasexample"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

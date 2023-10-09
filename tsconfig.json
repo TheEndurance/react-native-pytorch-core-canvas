@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-pilltally-canvas": ["./src/index"]
+      "react-native-pytorch-core-canvas": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
