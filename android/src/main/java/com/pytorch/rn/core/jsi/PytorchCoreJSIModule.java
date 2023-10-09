@@ -23,7 +23,7 @@ public class PyTorchCoreJSIModule extends ReactContextBaseJavaModule {
 
   public static final String TAG = "PTLJSIModule";
 
-  public static final String NAME = "PytorchCoreJSI";
+  public static final String NAME = "PyTorchCoreJSI";
 
 //  static {
 //    try {

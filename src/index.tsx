@@ -6,8 +6,8 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-const PytorchCoreCanvas = NativeModules.PytorchCoreJSI
-  ? NativeModules.PytorchCoreJSI
+const PytorchCoreCanvas = NativeModules.PyTorchCoreJSI
+  ? NativeModules.PyTorchCoreJSI
   : new Proxy(
       {},
       {

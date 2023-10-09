@@ -30,12 +30,12 @@ import com.pytorch.rn.core.canvas.ImageData;
 import com.pytorch.rn.core.javascript.JSContext;
 import com.pytorch.rn.core.utils.FileUtils;
 
-@ReactModule(name = "PytorchCoreImageModule")
+@ReactModule(name = "PyTorchCoreImageModule")
 public class ImageModule extends ReactContextBaseJavaModule {
 
   public static final String TAG = "PTLImageModule";
 
-  public static final String NAME = "PytorchCoreImageModule";
+  public static final String NAME = "PyTorchCoreImageModule";
 
   private ReactApplicationContext mReactContext;
 
