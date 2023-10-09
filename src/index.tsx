@@ -18,12 +18,12 @@ const PytorchCoreCanvas = NativeModules.PyTorchCoreJSI
     );
 
   // Call the synchronous blocking install() function
-  const result = PytorchCoreCanvas.install();
-  if (result !== true) {
-    throw new Error(
-      `Failed to install react-native-pytorch-core: The native PlayTorchJSIModule could not be installed! Looks like something went wrong when installing JSI bindings: ${result}`,
-    );
-  }
+//   const result = PytorchCoreCanvas.install();
+//   if (result !== true) {
+//     throw new Error(
+//       `Failed to install react-native-pytorch-core: The native PlayTorchJSIModule could not be installed! Looks like something went wrong when installing JSI bindings: ${result}`,
+//     );
+//   }
 
   export { Canvas } from './CanvasView';
   export type { CanvasRenderingContext2D } from './CanvasView';

@@ -18,7 +18,7 @@ public class PyTorchCoreJSIModulePackage implements JSIModulePackage {
   @Override
   public List<JSIModuleSpec> getJSIModules(
       ReactApplicationContext reactApplicationContext, JavaScriptContextHolder jsContext) {
-    reactApplicationContext.getNativeModule(PyTorchCoreJSIModule.class).installLib(jsContext);
+//    reactApplicationContext.getNativeModule(PyTorchCoreJSIModule.class).installLib(jsContext);
     return Collections.emptyList();
   }
 }
