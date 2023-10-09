@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package org.pytorch.rn.core.image;
+package com.pytorch.rn.core.image;
 
 import android.graphics.Bitmap;
 import android.media.Image;

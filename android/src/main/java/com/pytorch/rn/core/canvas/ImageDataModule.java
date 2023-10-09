@@ -16,10 +16,10 @@ import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.module.annotations.ReactModule;
 import com.pytorch.rn.core.javascript.JSContext;
 
-@ReactModule(name = "PytorchCoreImageDataModule")
+@ReactModule(name = "PyTorchCoreImageDataModule")
 public class ImageDataModule extends ReactContextBaseJavaModule {
 
-  public static final String NAME = "PytorchCoreImageDataModule";
+  public static final String NAME = "PyTorchCoreImageDataModule";
 
   public ImageDataModule(ReactApplicationContext reactContext) {
     super(reactContext);
