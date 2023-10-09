@@ -1,22 +1,23 @@
-# react-native-pilltally-canvas
+# react-native-pytorch-core-canvas
 
-Native implementation of canvas for react native
+Just the Canvas and Image modules extracted from the react-native-pytorch-core (Playtorch) library
+
+Why?
+- It's actually a decent implementation of canvas compared to alternatives like expo-2d-context and react-native-canvas which are not performant enough for reactive applications
+- The original library is no longer maintained and does not work on react-native versions >0.71
 
 ## Installation
 
 ```sh
-npm install react-native-pilltally-canvas
+npm install react-native-pytorch-core-canvas
 ```
 
 ## Usage
 
 ```js
-import { multiply } from 'react-native-pilltally-canvas';
-
-// ...
-
-const result = await multiply(3, 7);
+import { Image, ImageUtil, CanvasRenderingContext2d, Canvas } from 'react-native-pytorch-core-canvas';
 ```
+See the [react-native-pytorch-core](https://github.com/facebookresearch/playtorch) repo for more information on the canvas and image modules, as everything is identical
 
 ## Contributing
 
