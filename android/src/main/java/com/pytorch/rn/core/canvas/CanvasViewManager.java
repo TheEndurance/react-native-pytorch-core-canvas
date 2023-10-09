@@ -18,7 +18,7 @@ import java.util.Map;
 
 public class CanvasViewManager extends SimpleViewManager<CanvasView> {
 
-  public static final String REACT_CLASS = "PytorchCoreView";
+  public static final String REACT_CLASS = "PyTorchCoreCanvasView";
 
   private final ReactApplicationContext mReactContext;
 
