@@ -6,16 +6,16 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-const PytorchCoreCanvas = NativeModules.PyTorchCoreJSI
-  ? NativeModules.PyTorchCoreJSI
-  : new Proxy(
-      {},
-      {
-        get() {
-          throw new Error(LINKING_ERROR);
-        },
-      }
-    );
+// const PytorchCoreCanvas = NativeModules.PyTorchCoreJSI
+//   ? NativeModules.PyTorchCoreJSI
+//   : new Proxy(
+//       {},
+//       {
+//         get() {
+//           throw new Error(LINKING_ERROR);
+//         },
+//       }
+//     );
 
   // Call the synchronous blocking install() function
 //   const result = PytorchCoreCanvas.install();
