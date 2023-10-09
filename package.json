@@ -1,6 +1,6 @@
 {
   "name": "react-native-pytorch-core-canvas",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Just the canvas and image modules from pytorch rn core",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
