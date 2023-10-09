@@ -19,10 +19,10 @@ import com.facebook.react.uimanager.ReactInvalidPropertyException;
 import com.pytorch.rn.core.image.IImage;
 import com.pytorch.rn.core.javascript.JSContext;
 
-@ReactModule(name = "PytorchCoreRenderingContext2DModule")
+@ReactModule(name = "PyTorchCoreRenderingContext2DModule")
 public class CanvasRenderingContext2DModule extends ReactContextBaseJavaModule {
 
-  public static final String NAME = "PytorchCoreRenderingContext2DModule";
+  public static final String NAME = "PyTorchCoreRenderingContext2DModule";
 
   private final ReactApplicationContext mReactContext;
 

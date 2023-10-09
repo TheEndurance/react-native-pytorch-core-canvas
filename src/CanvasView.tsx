@@ -21,7 +21,7 @@ import type { NativeJSRef } from './NativeJSRef';
 import * as CSSFontUtils from './utils/CSSFontUtils';
 
 const {
-  PyTorchCoreCanvasRenderingContext2DModule: CanvasRenderingContext2DModule,
+  PyTorchCoreRenderingContext2DModule: CanvasRenderingContext2DModule,
   PyTorchCoreImageDataModule: ImageDataModule,
 } = NativeModules;
 
