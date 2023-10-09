@@ -17,7 +17,7 @@ import org.jetbrains.annotations.NotNull;
 import com.pytorch.rn.core.canvas.CanvasRenderingContext2DModule;
 import com.pytorch.rn.core.canvas.CanvasViewManager;
 import com.pytorch.rn.core.canvas.ImageDataModule;
-import com.pytorch.rn.core.ImageModule;
+import com.pytorch.rn.core.image.ImageModule;
 import com.pytorch.rn.core.jsi.PyTorchCoreJSIModule;
 
 public class PyTorchCorePackage implements ReactPackage {

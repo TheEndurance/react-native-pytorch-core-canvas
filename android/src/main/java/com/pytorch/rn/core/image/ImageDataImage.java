@@ -10,7 +10,7 @@ package org.pytorch.rn.core.image;
 import android.graphics.Bitmap;
 import android.media.Image;
 import androidx.annotation.Nullable;
-import com.pytorch.rn.core.ImageData;
+import com.pytorch.rn.core.canvas.ImageData;
 
 public class ImageDataImage extends AbstractImage {
 
