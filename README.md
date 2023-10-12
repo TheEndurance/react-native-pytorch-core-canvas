@@ -6,6 +6,10 @@ Why?
 - It's actually a decent implementation of canvas compared to alternatives like expo-2d-context and react-native-canvas which are not performant enough for reactive applications
 - The original library is no longer maintained and does not work on react-native versions >0.71
 
+## Android only for now
+
+Only works on android so far, ios implementation is WIP
+
 ## Installation
 
 ```sh
