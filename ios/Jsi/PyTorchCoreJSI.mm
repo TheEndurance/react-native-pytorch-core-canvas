@@ -11,7 +11,7 @@
 #import <ReactCommon/RuntimeExecutor.h>
 #import <jsi/jsi.h>
 #import <sys/utsname.h>
-#import <cxx/src/torchlive/torchlive.h>
+// #import <cxx/src/torchlive/torchlive.h>
 
 #import "PyTorchCoreJSI.h"
 
@@ -49,7 +49,7 @@ RCT_EXPORT_MODULE()
                 }];
             };
 
-        torchlive::install(*(facebook::jsi::Runtime *)cxxBridge.runtime, runtimeExecutor);
+        // torchlive::install(*(facebook::jsi::Runtime *)cxxBridge.runtime, runtimeExecutor);
     }
 }
 

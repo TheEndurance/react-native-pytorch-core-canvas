@@ -10,7 +10,7 @@
 #import <React/RCTConvert.h>
 
 
-@interface RCT_EXTERN_REMAP_MODULE(PyTorchCoreCanvasRenderingContext2DModule, CanvasRenderingContext2D, NSObject)
+@interface RCT_EXTERN_REMAP_MODULE(PyTorchCoreRenderingContext2DModule, CanvasRenderingContext2D, NSObject)
 
 RCT_EXTERN_METHOD(fillRect:(nonnull NSDictionary)canvasRef x:(nonnull NSNumber)x y:(nonnull NSNumber)y width:(nonnull NSNumber)width height:(nonnull NSNumber)height resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject);
 RCT_EXTERN_METHOD(strokeRect:(nonnull NSDictionary)canvasRef x:(nonnull NSNumber)x y:(nonnull NSNumber)y width:(nonnull NSNumber)width height:(nonnull NSNumber)height resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject);
