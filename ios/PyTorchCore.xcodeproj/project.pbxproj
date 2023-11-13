@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383DF34928D18D2500C4E953 /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383DF34828D18D2500C4E953 /* UIImage+Orientation.swift */; };
+		38411DDD284081CE009E56F3 /* JSContextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38411DDC284081CE009E56F3 /* JSContextUtils.swift */; };
+		384255BF26E17D3F00274872 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384255BE26E17D3F00274872 /* ImageData.swift */; };
+		3861445D282A3880007990F5 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3861445C282A3880007990F5 /* UIImage+Resize.swift */; };
+		387E703C26E16F43003BB6F5 /* CanvasManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E701826E16F43003BB6F5 /* CanvasManager.swift */; };
+		387E703D26E16F43003BB6F5 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E701926E16F43003BB6F5 /* DrawingCanvasView.swift */; };
+		387E703E26E16F43003BB6F5 /* CanvasRenderingContext2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E701A26E16F43003BB6F5 /* CanvasRenderingContext2D.swift */; };
+		387E703F26E16F43003BB6F5 /* CanvasManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E701B26E16F43003BB6F5 /* CanvasManager.m */; };
+		387E704026E16F43003BB6F5 /* LayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E701C26E16F43003BB6F5 /* LayerData.swift */; };
+		387E704126E16F43003BB6F5 /* CanvasRenderingContext2DModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E701D26E16F43003BB6F5 /* CanvasRenderingContext2DModule.m */; };
+		387E704226E16F43003BB6F5 /* ShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E701E26E16F43003BB6F5 /* ShapeLayer.swift */; };
+		387E704326E16F43003BB6F5 /* CGContextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E701F26E16F43003BB6F5 /* CGContextExtension.swift */; };
+		387E704826E16F43003BB6F5 /* JSContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E702626E16F43003BB6F5 /* JSContext.swift */; };
+		387E705426E16F43003BB6F5 /* BitmapImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E703726E16F43003BB6F5 /* BitmapImage.swift */; };
+		387E705526E16F43003BB6F5 /* Macros.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E703826E16F43003BB6F5 /* Macros.m */; };
+		387E705626E16F43003BB6F5 /* ImageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E703926E16F43003BB6F5 /* ImageModule.m */; };
+		387E705726E16F43003BB6F5 /* ImageModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E703B26E16F43003BB6F5 /* ImageModule.swift */; };
+		3896F5B126E17F2700A03229 /* ImageDataModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896F5B026E17F2700A03229 /* ImageDataModule.swift */; };
+		3896F5B326E17F7900A03229 /* ImageDataModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3896F5B226E17F7900A03229 /* ImageDataModule.m */; };
+		38C0DDB026E59E40003007B6 /* IImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0DDAF26E59E40003007B6 /* IImage.swift */; };
+		38C0DDB226E59E88003007B6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0DDB126E59E88003007B6 /* Image.swift */; };
+		38C0DDB426E59EDD003007B6 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0DDB326E59EDD003007B6 /* ImageUtils.swift */; };
+		38C1F3CC26E5A2B9004BD31B /* ImageDataImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C1F3CB26E5A2B9004BD31B /* ImageDataImage.swift */; };
+		D61FEB39FCD0744C96600F92 /* Pods_PyTorchCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD46122F956C87FC096856 /* Pods_PyTorchCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		077CD93731718012A796F230 /* Pods-PyTorchCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyTorchCore.release.xcconfig"; path = "Target Support Files/Pods-PyTorchCore/Pods-PyTorchCore.release.xcconfig"; sourceTree = "<group>"; };
+		383DF34828D18D2500C4E953 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		38411DDC284081CE009E56F3 /* JSContextUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSContextUtils.swift; sourceTree = "<group>"; };
+		384255BE26E17D3F00274872 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		3861445C282A3880007990F5 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		387E701826E16F43003BB6F5 /* CanvasManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasManager.swift; sourceTree = "<group>"; };
+		387E701926E16F43003BB6F5 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		387E701A26E16F43003BB6F5 /* CanvasRenderingContext2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasRenderingContext2D.swift; sourceTree = "<group>"; };
+		387E701B26E16F43003BB6F5 /* CanvasManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasManager.m; sourceTree = "<group>"; };
+		387E701C26E16F43003BB6F5 /* LayerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerData.swift; sourceTree = "<group>"; };
+		387E701D26E16F43003BB6F5 /* CanvasRenderingContext2DModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasRenderingContext2DModule.m; sourceTree = "<group>"; };
+		387E701E26E16F43003BB6F5 /* ShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeLayer.swift; sourceTree = "<group>"; };
+		387E701F26E16F43003BB6F5 /* CGContextExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContextExtension.swift; sourceTree = "<group>"; };
+		387E702626E16F43003BB6F5 /* JSContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSContext.swift; sourceTree = "<group>"; };
+		387E703726E16F43003BB6F5 /* BitmapImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapImage.swift; sourceTree = "<group>"; };
+		387E703826E16F43003BB6F5 /* Macros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macros.m; sourceTree = "<group>"; };
+		387E703926E16F43003BB6F5 /* ImageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModule.m; sourceTree = "<group>"; };
+		387E703A26E16F43003BB6F5 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		387E703B26E16F43003BB6F5 /* ImageModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModule.swift; sourceTree = "<group>"; };
+		3896F5B026E17F2700A03229 /* ImageDataModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModule.swift; sourceTree = "<group>"; };
+		3896F5B226E17F7900A03229 /* ImageDataModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDataModule.m; sourceTree = "<group>"; };
+		38C0DDAF26E59E40003007B6 /* IImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IImage.swift; sourceTree = "<group>"; };
+		38C0DDB126E59E88003007B6 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		38C0DDB326E59EDD003007B6 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		38C1F3CB26E5A2B9004BD31B /* ImageDataImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataImage.swift; sourceTree = "<group>"; };
+		8777C8841D9AE958F17CC71A /* Pods-PyTorchCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyTorchCore.debug.xcconfig"; path = "Target Support Files/Pods-PyTorchCore/Pods-PyTorchCore.debug.xcconfig"; sourceTree = "<group>"; };
+		C6AD46122F956C87FC096856 /* Pods_PyTorchCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PyTorchCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FF95D5245B92E700C19C63 /* PyTorchCore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PyTorchCore-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61FEB39FCD0744C96600F92 /* Pods_PyTorchCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA56EB859C89F4E98952D6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8777C8841D9AE958F17CC71A /* Pods-PyTorchCore.debug.xcconfig */,
+				077CD93731718012A796F230 /* Pods-PyTorchCore.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../../Pods;
+			sourceTree = "<group>";
+		};
+		387E701726E16F43003BB6F5 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				387E701B26E16F43003BB6F5 /* CanvasManager.m */,
+				387E701826E16F43003BB6F5 /* CanvasManager.swift */,
+				387E701A26E16F43003BB6F5 /* CanvasRenderingContext2D.swift */,
+				387E701D26E16F43003BB6F5 /* CanvasRenderingContext2DModule.m */,
+				387E701F26E16F43003BB6F5 /* CGContextExtension.swift */,
+				387E701926E16F43003BB6F5 /* DrawingCanvasView.swift */,
+				384255BE26E17D3F00274872 /* ImageData.swift */,
+				3896F5B226E17F7900A03229 /* ImageDataModule.m */,
+				3896F5B026E17F2700A03229 /* ImageDataModule.swift */,
+				387E701C26E16F43003BB6F5 /* LayerData.swift */,
+				387E701E26E16F43003BB6F5 /* ShapeLayer.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		387E702526E16F43003BB6F5 /* JavaScript */ = {
+			isa = PBXGroup;
+			children = (
+				387E702626E16F43003BB6F5 /* JSContext.swift */,
+				38411DDC284081CE009E56F3 /* JSContextUtils.swift */,
+			);
+			path = JavaScript;
+			sourceTree = "<group>";
+		};
+		387E703626E16F43003BB6F5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				387E703726E16F43003BB6F5 /* BitmapImage.swift */,
+				38C0DDAF26E59E40003007B6 /* IImage.swift */,
+				38C0DDB126E59E88003007B6 /* Image.swift */,
+				38C1F3CB26E5A2B9004BD31B /* ImageDataImage.swift */,
+				387E703926E16F43003BB6F5 /* ImageModule.m */,
+				387E703B26E16F43003BB6F5 /* ImageModule.swift */,
+				38C0DDB326E59EDD003007B6 /* ImageUtils.swift */,
+				387E703A26E16F43003BB6F5 /* Macros.h */,
+				387E703826E16F43003BB6F5 /* Macros.m */,
+				3861445C282A3880007990F5 /* UIImage+Resize.swift */,
+				383DF34828D18D2500C4E953 /* UIImage+Orientation.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				387E701726E16F43003BB6F5 /* Canvas */,
+				387E703626E16F43003BB6F5 /* Image */,
+				387E702526E16F43003BB6F5 /* JavaScript */,
+				F4FF95D5245B92E700C19C63 /* PyTorchCore-Bridging-Header.h */,
+				0FA56EB859C89F4E98952D6F /* Pods */,
+				74A8C84BB121D6373460F4A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74A8C84BB121D6373460F4A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD46122F956C87FC096856 /* Pods_PyTorchCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* PyTorchCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "PyTorchCore" */;
+			buildPhases = (
+				ABA1B0A7B49E6EB22A9D6F1A /* [CP] Check Pods Manifest.lock */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyTorchCore;
+			productName = RCTDataManager;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "PyTorchCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* PyTorchCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABA1B0A7B49E6EB22A9D6F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PyTorchCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383DF34928D18D2500C4E953 /* UIImage+Orientation.swift in Sources */,
+				387E704226E16F43003BB6F5 /* ShapeLayer.swift in Sources */,
+				387E705626E16F43003BB6F5 /* ImageModule.m in Sources */,
+				387E704826E16F43003BB6F5 /* JSContext.swift in Sources */,
+				387E705526E16F43003BB6F5 /* Macros.m in Sources */,
+				38C0DDB426E59EDD003007B6 /* ImageUtils.swift in Sources */,
+				3861445D282A3880007990F5 /* UIImage+Resize.swift in Sources */,
+				387E704026E16F43003BB6F5 /* LayerData.swift in Sources */,
+				38C1F3CC26E5A2B9004BD31B /* ImageDataImage.swift in Sources */,
+				38C0DDB026E59E40003007B6 /* IImage.swift in Sources */,
+				387E703C26E16F43003BB6F5 /* CanvasManager.swift in Sources */,
+				3896F5B326E17F7900A03229 /* ImageDataModule.m in Sources */,
+				387E703F26E16F43003BB6F5 /* CanvasManager.m in Sources */,
+				38411DDD284081CE009E56F3 /* JSContextUtils.swift in Sources */,
+				387E703E26E16F43003BB6F5 /* CanvasRenderingContext2D.swift in Sources */,
+				38C0DDB226E59E88003007B6 /* Image.swift in Sources */,
+				387E704126E16F43003BB6F5 /* CanvasRenderingContext2DModule.m in Sources */,
+				3896F5B126E17F2700A03229 /* ImageDataModule.swift in Sources */,
+				384255BF26E17D3F00274872 /* ImageData.swift in Sources */,
+				387E703D26E16F43003BB6F5 /* DrawingCanvasView.swift in Sources */,
+				387E704326E16F43003BB6F5 /* CGContextExtension.swift in Sources */,
+				387E705726E16F43003BB6F5 /* ImageModule.swift in Sources */,
+				387E705426E16F43003BB6F5 /* BitmapImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8777C8841D9AE958F17CC71A /* Pods-PyTorchCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = PyTorchCore;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PyTorchCore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077CD93731718012A796F230 /* Pods-PyTorchCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = PyTorchCore;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PyTorchCore-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "PyTorchCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "PyTorchCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
